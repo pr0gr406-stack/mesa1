@@ -13,9 +13,9 @@ public class Multiplicación {
         System.out.println("Ingresa el segundo numero: ");
         int b = sc.nextInt();
         
-       // Multiplicacion multiplicacion = new multiplicacion(); 
+        multiplicacion multiplicacion = new multiplicacion(); 
         
-        //System.out.println("La multiplicacion es "+multiplicacion.calculadora(a,b));
+        System.out.println("La multiplicacion es "+multiplicacion.calculadora(a,b));
     }
     
 }
